@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Seller Panel </title>
+    <link rel="stylesheet" href="css/bootstrap1.min.css" />
+
+    <!-- fontawsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/niceselect/css/nice-select.css" />
+    <link rel="stylesheet" href="css/metisMenu.css">
+    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS">
+    <link rel="stylesheet" href="css/percircle.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/css/intlTelInput.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="crm_body_bg">
+
+    <!-- side bar part start here  -->
+    <nav class="sidebar dark_sidebar">
+        <div class="logo d-flex justify-content-between">
+            <a class="large_logo" href="index.html"><img src="images/logo.png" alt></a>
+            <a class="small_logo" href="index.html"><img src="img/mini_logo.png" alt></a>
+            <div class="sidebar_close_icon d-lg-none">
+                <i class="ti-close"></i>
+            </div>
+        </div>
+        <ul id="sidebar_menu">
+            <li class>
+                <a href="home.html" aria-expanded="false" class="inactive">
+                    <div class="nav_icon_small">
+                        <!-- <img src="img/menu-icon/1.svg" alt> -->
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Home</span>
+                    </div>
+                </a>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <!-- <img src="img/menu-icon/2.svg" alt> -->
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Community </span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="announcement.html" class="d-flex align-items-center"><i
+                                class="fa-solid fa-bullhorn"></i>Annumcement</a></li>
+                    <li><a href="event.html"><i class="fa-solid fa-calendar-days"></i>Event</a></li>
+                    <li><a href="faq.html"><i class="fa-solid fa-person-circle-question"></i>FAQ</a></li>
+                </ul>
+            </li>
+            <li class>
+                <a href="operationCenter.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Operation Center</span>
+                    </div>
+                </a>
+            </li>
+            <li class>
+                <a href="fund.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Dropshipping Fund </span>
+                    </div>
+                </a>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-box"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Order Center </span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="orderList.html"><i class="fa-regular fa-file-lines"></i>Order list</a></li>
+                    <li><a href="shop.html"><i class="fa-solid fa-boxes-stacked"></i>Product Center</a></li>
+                </ul>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Global Stores </span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="activeService.html"><i class="fa-solid fa-users-gear"></i>Active Service</a></li>
+                    <li><a href="myStore.html"><i class="fa-solid fa-store"></i>My Store </a></li>
+                    <li><a href="myWallet.html"><i class="fa-solid fa-wallet"></i>My Wallet </a></li>
+                </ul>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Data Management</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="personalData.html"><i class="fa-regular fa-id-card"></i>Personal Data </a></li>
+                    <li><a href="accountSecurity.html"><i class="fa-solid fa-shield-halved"></i>Account Security</a>
+                    </li>
+                    <li><a href="myMassage.html"><i class="fa-regular fa-message"></i>My massage </a></li>
+                    <li><a href="bankList.html"><i class="fa-solid fa-building-columns"></i>Bank List </a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- sidebar part end here  -->
+
+
+
+    <section class="main_content dashboard_part large_header_bg">
+
+        <div class="container-fluid g-0">
+            <div class="row">
+                <div class="col-lg-12 p-0 ">
+                    <!-- main header part start here  -->
+                    <div class="header_iner d-flex justify-content-between align-items-center">
+                        <div class="sidebar_icon d-lg-none">
+                            <i class="ti-menu"></i>
+                        </div>
+                        <div class="line_icon open_miniSide d-none d-lg-block">
+                            <img src="img/line_img.png" alt>
+                        </div>
+                        <div class="header_right d-flex justify-content-between align-items-center">
+                            <div class="header_notification_warp d-flex align-items-center">
+                                <li>
+                                    <a class=" nav-link-notify" href="myMassage.html"> <img src="img/icon/msg.svg" alt>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="profile_info d-flex align-items-center">
+                                <div class="profile_thumb mr_20">
+                                    <img src="img/transfer/4.png" alt="#">
+                                </div>
+                                <div class="author_name">
+                                    <h4 class="f_s_15 f_w_500 mb-0">Jiue Anderson</h4>
+                                    <p class="f_s_12 f_w_400">Seller</p>
+                                </div>
+                                <div class="profile_info_iner">
+                                    <div class="profile_author_name">
+                                        <p>Seller</p>
+                                        <h5>Jiue Anderson</h5>
+                                    </div>
+                                    <div class="profile_info_details">
+                                        <a href="personalData.html">My Profile </a>
+                                        <a href="#">Log Out </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main header part end here  -->
+                </div>
+            </div>
+        </div>
+
+        <div class="main_content_iner overly_inner ">
+            <div class="container-fluid p-0 ">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="page_title_left">
+                                <h3 class="mb-0">Account Security </h3>
+                                <p>Seller Dashboard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- content part start here  -->
+                        <div class="s_content">
+                            <div class="sequrity_container">
+                                <div class="sequrity_div">
+                                    <i class="fa-solid fa-user"></i>
+                                    <h5>Password</h5>
+                                    <p>There is a risk of theft on the Internet. It is recommended that
+                                        you regularly change your password to protect security,</p>
+                                    <a class="btn btn-primary pass_mdal_open w-100">Change</a>
+                                </div>
+                                <div class="sequrity_div">
+                                    <i class="fa-solid fa-wallet"></i>
+                                    <h5>Withdrawal Password</h5>
+                                    <p>By default, the password is blank, For safety reasons, please
+                                        change it to a different valin,</p>
+                                    <a class="btn wdrl_mdal_open btn-primary w-100">Create</a>
+                                </div>
+                                <div class="sequrity_div">
+                                    <i class="fa-solid fa-mobile"></i>
+                                    <h5>Phone Number</h5>
+                                    <p>You haven't bound your mobile phone number yet Can be
+                                        used for login, password retrieval, nocount security
+                                        management verification, and acceptance of account reminder
+                                        notifications</p>
+                                    <a class="btn phone_mdal_open btn-primary w-100">Change</a>
+                                </div>
+                                <div class="sequrity_div">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <h5>E-mail</h5>
+                                    <p>You have not hound an email yet Can be used for login,
+                                        password retrieval, account security management verification,
+                                        and receiving account reminder emails,</p>
+                                    <a class="btn email_mdal_open btn-primary w-100">Change</a>
+                                </div>
+                                <div class="sequrity_div">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <h5>Passport/Id card Photo</h5>
+                                    <p>Passport/ID card image binding … It can be used for password
+                                        retrieval, account security management authentication</p>
+                                    <a class="btn btn-primary id_mdal_open w-100">Upload</a>
+                                </div>
+                                <div class="sequrity_div">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <h5>Account Cancelation</h5>
+                                    <p>You must be no unfinish order to log off</p>
+                                    <a class="btn btn-danger cancel_mdal_open w-100">Cancelation</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- content part end here  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_part">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_iner text-center">
+                            <p>2024 © Dropshipping </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- password modal  -->
+    <div class="pass_mdal modal_">
+        <div class="mdal_content">
+            <div class="m_head">
+                <!-- <h6>Deposite Modal</h6> -->
+                <div class="w-50"></div>
+                <button class="bt_close">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <div class="_body">
+                <div class="form_group">
+                    <form action="">
+                        <div class="form_group">
+                            <div class="input_group">
+                                <p>Old Password</p>
+                                <div class="eye_icon">
+                                    <input id="oldpassp" type="password" name="password" class="form-control">
+                                    <i toggle="#oldpassp" class="fa-regular fa-eye toggle_password"></i>
+                                </div>
+                            </div>
+                            <div class="input_group">
+                                <p>New Password</p>
+                                <div class="eye_icon">
+                                    <input id="newpassp" type="password" name="password" class="form-control">
+                                    <i toggle="#newpassp" class="fa-regular fa-eye toggle_password"></i>
+                                </div>
+                            </div>
+                            <div class="input_group">
+                                <p>Retype Password</p>
+                                <div class="eye_icon">
+                                    <input id="repassp" type="password" name="password" class="form-control">
+                                    <i toggle="#repassp" class="fa-regular fa-eye toggle_password"></i>
+                                </div>
+                                <p class="text-danger">Password dosen't match</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary  w-100 mt-3 bt_s">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Withdrawal password modal  -->
+    <div class="wdrl_mdal modal_">
+        <div class="mdal_content">
+            <div class="m_head">
+                <!-- <h6>Deposite Modal</h6> -->
+                <div class="w-50"></div>
+                <button class="bt_close">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <div class="_body">
+                <div class="form_group">
+                    <form action="">
+                        <div class="form_group">
+                            <!-- <div class="input_group">
+                                <p>Old Password</p>
+                                <div class="eye_icon">
+                                    <input id="oldpass" type="password" name="password" class="form-control">
+                                    <i toggle="#oldpass" class="fa-regular fa-eye toggle_password"></i>
+                                </div>
+                            </div> -->
+                            <p class="badge_"><i class="fa-solid fa-circle-exclamation"></i>If you forget your withdrawal password please contact us support@dropshipping.com</p>
+                            <div class="input_group">
+                                <p>New Password</p>
+                                <div class="eye_icon">
+                                    <input id="newpass" type="password" name="password" class="form-control">
+                                    <i toggle="#newpass" class="fa-regular fa-eye toggle_password"></i>
+                                </div>
+                            </div>
+                            <div class="input_group">
+                                <p>Retype Password</p>
+                                <div class="eye_icon">
+                                    <input id="repass" type="password" name="password" class="form-control">
+                                    <i toggle="#repass" class="fa-regular fa-eye toggle_password"></i>
+                                </div>
+                                <p class="text-danger">Password dosen't match</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary  w-100 mt-3 bt_s">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Phone number  modal  -->
+    <div class="phone_mdal modal_">
+        <div class="mdal_content">
+            <div class="m_head">
+                <!-- <h6>Deposite Modal</h6> -->
+                <div class="w-50"></div>
+                <button class="bt_close">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <div class="_body">
+                <div class="form_group">
+                    <form action="">
+                        <div class="form_group">
+                            <div class="input_group">
+                              <p>Phone</p>
+                              <div class="_code">
+                                <input type="text" class="form-control w-100" id="mobile_code">
+                                <!-- <input type="tel" value="" class="form-control"> -->
+                                <button class="send_code">Send Code</button>
+                              </div>
+                            </div>
+                            <div class="input_group">
+                              <p>OTP</p>
+                              <div class="d-flex">
+                                <input type="text" class="form-control w-50">
+                                <p class="ms-2" style="font-size: 12px;">Click 'Send Code,' check your phone (inbox/message) for the
+                                  OTP.
+                                </p>
+                              </div>
+                              <p class="text-danger">Wrong OTP</p>
+                            </div>
+                            <div class="input_group">
+                                <p>Password</p>
+                                <div class="eye_icon">
+                                    <input id="repassph" type="password" name="password" class="form-control">
+                                    <i toggle="#repassph" class="fa-regular fa-eye toggle_password"></i>
+                                </div>
+                                <p class="text-danger">Password dosen't match</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary  w-100 mt-3 bt_s">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- email modal  -->
+    <div class="email_mdal modal_">
+        <div class="mdal_content">
+            <div class="m_head">
+                <!-- <h6>Deposite Modal</h6> -->
+                <div class="w-50"></div>
+                <button class="bt_close">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <div class="_body">
+                <div class="form_group">
+                    <form action="">
+                        <div class="form_group">
+                            <div class="input_group">
+                              <p>Email</p>
+                              <div class="_code">
+                                <input type="email" class="form-control w-100" >
+                                <!-- <input type="tel" value="" class="form-control"> -->
+                                <button class="send_code">Send Code</button>
+                              </div>
+                            </div>
+                            <div class="input_group">
+                              <p>OTP</p>
+                              <div class="d-flex">
+                                <input type="text" class="form-control w-50" required>
+                                <p class="ms-2" style="font-size: 12px;">Click 'Send Code,' check your phone (inbox/message) for the
+                                  OTP.
+                                </p>
+                              </div>
+                              <p class="text-danger">Wrong OTP</p>
+                            </div>
+                            <div class="input_group">
+                                <p>Password</p>
+                                <div class="eye_icon">
+                                    <input id="passE" type="password" name="password" required class="form-control">
+                                    <i toggle="#passE" class="fa-regular fa-eye toggle_password"></i>
+                                </div>
+                                <p class="text-danger">Password dosen't match</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary  w-100 mt-3 bt_s">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Passport/Id modal  -->
+    <div class="id_mdal modal_">
+        <div class="mdal_content">
+            <div class="m_head">
+                <h6>Passport/Id card photo </h6>
+                <div class="w-50"></div>
+                <button class="bt_close">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <div class="_body">
+                <div class="form_group">
+                    <form action="">
+                        <div class="form_group">
+                            <div class="input_group">
+                                <label for="profile" class="text-center d-flex">
+                                    <div class="img_div">
+                                        <img src="images/upload-to-cloud-100.png" style="
+                                        max-height: 250px;
+                                        object-fit: cover;
+                                        width: 100%;
+                                    " id="preview_image" class=" img-fluid" alt="">
+                                    </div>
+                                </label>
+                                <input type="file" name="image" id="profile" hidden class="form-control">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary  w-100 mt-3 bt_s">Upload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cancel modal  -->
+    <div class="cancel_mdal modal_">
+        <div class="mdal_content">
+            <div class="m_head">
+                <h6>Are you sure?</h6>
+                <div class="w-50"></div>
+                <button class="bt_close">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <div class="_body">
+                <p class="text-center" ><strong>Please read the content:
+                    The term of these Terms of Service will begin on the date of your completed registration for use of a Service and continue
+                    until terminated by us or by you, as provided below (the "Term" ).
+                    You may cancel your Account and terminate the Terms of Service at any time by contacting Shopify top and then following
+                    the specific instructions indicated to you in Shopify top' s response.
+                    Without limiting any other remedies, we may suspend or terminate your Account or the Terms of Service for any reason,
+                    without notice and at any time (unless otherwise required by law),
+                    activity in connection with the Service
+                    Term and condition</strong></p>
+                <button type="button" class="btn btn-danger  w-100 mt-3 ">Confirm</button>
+                <button type="button" class="btn btn-success  w-100 mt-3 bt_s">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="back-top" style="display: none;">
+        <a title="Go to Top" href="#top">
+            <i class="ti-angle-up"></i>
+        </a>
+    </div>
+
+
+    <script src="js/jquery1-3.4.1.min.js"></script>
+    <script src="js/popper1.min.js"></script>
+    <script src="js/bootstrap1.min.js"></script>
+    <script src="js/metisMenu.js"></script>
+    <script src="js/dashboard_init.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/uploadImageLivePreview.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.min.js"></script>
+    <script>
+      // -----Country Code Selection
+      $("#mobile_code").intlTelInput({
+        // initialCountry: "bd",
+        separateDialCode: true,
+      });
+    </script>
+    <script>
+        // wdrl_mdal_open
+        // phone_mdal_open
+        // email_mdal_open
+        // id_mdal_open
+        // cancel_mdal_open
+
+        $(document).ready(function () {
+            // pass modal part here 
+            $(".pass_mdal_open").click(function () {
+                $(".pass_mdal").fadeIn();
+            })
+            $(".bt_close").click(function () {
+                $(".pass_mdal").fadeOut();
+            })
+            // withdrawal pass modal part here 
+            $(".wdrl_mdal_open").click(function () {
+                $(".wdrl_mdal").fadeIn();
+            })
+            $(".bt_close").click(function () {
+                $(".wdrl_mdal").fadeOut();
+            })
+            // Phone number modal part here 
+            $(".phone_mdal_open").click(function () {
+                $(".phone_mdal").fadeIn();
+            })
+            $(".bt_close").click(function () {
+                $(".phone_mdal").fadeOut();
+            })
+            // e-mail modal part here 
+            $(".email_mdal_open").click(function () {
+                $(".email_mdal").fadeIn();
+            })
+            $(".bt_close").click(function () {
+                $(".email_mdal").fadeOut();
+            })
+            // e-mail modal part here 
+            $(".id_mdal_open").click(function () {
+                $(".id_mdal").fadeIn();
+            })
+            $(".bt_close").click(function () {
+                $(".id_mdal").fadeOut();
+            })
+            //  cancel_mdal_openl modal part here 
+            $(".cancel_mdal_open").click(function () {
+                $(".cancel_mdal").fadeIn();
+            })
+            $(".bt_close").click(function () {
+                $(".cancel_mdal").fadeOut();
+            })
+            
+            $(".bt_s").click(function () {
+                $(".cancel_mdal").fadeOut();
+            })
+
+        });
+
+        $(document).ready(function () {
+            $(".toggle_password").click(function () {
+                $(this).toggleClass("fa-eye fa-eye-slash");
+                var input = $($(this).attr("toggle"));
+                if (input.attr("type") == "password") {
+                    input.attr("type", "text");
+                } else {
+                    input.attr("type", "password");
+                }
+            });
+        })
+    </script>
+
+</body>
+
+</html>

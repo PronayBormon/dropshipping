@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Seller Panel </title>
+    <link rel="stylesheet" href="css/bootstrap1.min.css" />
+
+    <!-- fontawsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/niceselect/css/nice-select.css" />
+    <link rel="stylesheet" href="css/metisMenu.css">
+    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS">
+    <link rel="stylesheet" href="css/percircle.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="crm_body_bg">
+
+    <!-- side bar part start here  -->
+    <nav class="sidebar dark_sidebar">
+        <div class="logo d-flex justify-content-between">
+            <a class="large_logo" href="index.html"><img src="images/logo.png" alt></a>
+            <a class="small_logo" href="index.html"><img src="img/mini_logo.png" alt></a>
+            <div class="sidebar_close_icon d-lg-none">
+                <i class="ti-close"></i>
+            </div>
+        </div>
+        <ul id="sidebar_menu">
+            <li class>
+                <a href="home.html" aria-expanded="false" class="inactive">
+                    <div class="nav_icon_small">
+                        <!-- <img src="img/menu-icon/1.svg" alt> -->
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Home</span>
+                    </div>
+                </a>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <!-- <img src="img/menu-icon/2.svg" alt> -->
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Community </span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="announcement.html" class="d-flex align-items-center"><i
+                                class="fa-solid fa-bullhorn"></i>Annumcement</a></li>
+                    <li><a href="event.html"><i class="fa-solid fa-calendar-days"></i>Event</a></li>
+                    <li><a href="faq.html"><i class="fa-solid fa-person-circle-question"></i>FAQ</a></li>
+                </ul>
+            </li>
+            <li class>
+                <a href="operationCenter.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Operation Center</span>
+                    </div>
+                </a>
+            </li>
+            <li class>
+                <a href="fund.html" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Dropshipping Fund </span>
+                    </div>
+                </a>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-box"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Order Center </span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="orderList.html"><i class="fa-regular fa-file-lines"></i>Order list</a></li>
+                    <li><a href="shop.html"><i class="fa-solid fa-boxes-stacked"></i>Product Center</a></li>
+                </ul>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Global Stores </span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="activeService.html"><i class="fa-solid fa-users-gear"></i>Active Service</a></li>
+                    <li><a href="myStore.html"><i class="fa-solid fa-store"></i>My Store </a></li>
+                    <li><a href="myWallet.html"><i class="fa-solid fa-wallet"></i>My Wallet </a></li>
+                </ul>
+            </li>
+            <li class>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <div class="nav_icon_small">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Data Management</span>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="personalData.html"><i class="fa-regular fa-id-card"></i>Personal Data </a></li>
+                    <li><a href="accountSecurity.html"><i class="fa-solid fa-shield-halved"></i>Account Security</a>
+                    </li>
+                    <li><a href="myMassage.html"><i class="fa-regular fa-message"></i>My massage </a></li>
+                    <li><a href="bankList.html"><i class="fa-solid fa-building-columns"></i>Bank List </a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- sidebar part end here  -->
+
+
+
+    <section class="main_content dashboard_part large_header_bg">
+
+        <div class="container-fluid g-0">
+            <div class="row">
+                <div class="col-lg-12 p-0 ">
+                    <!-- main header part start here  -->
+                    <div class="header_iner d-flex justify-content-between align-items-center">
+                        <div class="sidebar_icon d-lg-none">
+                            <i class="ti-menu"></i>
+                        </div>
+                        <div class="line_icon open_miniSide d-none d-lg-block">
+                            <img src="img/line_img.png" alt>
+                        </div>
+                        <div class="header_right d-flex justify-content-between align-items-center">
+                            <div class="header_notification_warp d-flex align-items-center">
+                                <li>
+                                    <a class=" nav-link-notify" href="myMassage.html"> <img src="img/icon/msg.svg" alt>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="profile_info d-flex align-items-center">
+                                <div class="profile_thumb mr_20">
+                                    <img src="img/transfer/4.png" alt="#">
+                                </div>
+                                <div class="author_name">
+                                    <h4 class="f_s_15 f_w_500 mb-0">Jiue Anderson</h4>
+                                    <p class="f_s_12 f_w_400">Seller</p>
+                                </div>
+                                <div class="profile_info_iner">
+                                    <div class="profile_author_name">
+                                        <p>Seller</p>
+                                        <h5>Jiue Anderson</h5>
+                                    </div>
+                                    <div class="profile_info_details">
+                                        <a href="personalData.html">My Profile </a>
+                                        <a href="#">Log Out </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main header part end here  -->
+                </div>
+            </div>
+        </div>
+
+        <div class="main_content_iner overly_inner ">
+            <div class="container-fluid p-0 ">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="page_title_left">
+                                <h3 class="mb-0">My Messages </h3>
+                                <p>Seller Dashboard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- content part start here  -->
+                        <div class="s_content">
+                            <div class="row align-items-center btns_">
+                                <div class="col-xl-8 mb-2">
+                                    <form action="">
+                                        <div class="d-flex align-items-center">
+                                            <div class="mx-2">
+                                                <p>Month</p>
+                                                <select name="" class="form-control" id="">
+                                                    <option value="">This Month</option>
+                                                    <option value="">Last Month</option>
+                                                    <option value="">Whole</option>
+                                                </select>
+                                            </div>
+                                            <div>
+                                                <p>Business Type</p>
+                                                <select name="" class="form-control" id="">
+                                                    <option value="">Select One </option>
+                                                    <option value="">System</option>
+                                                    <option value="">System</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-xl-4 mb-2">
+                                    <form action="">
+                                        <div class="d-flex align-items-center">
+                                            <button type="button" class="btn btn-outline-secondary "><i
+                                                    class="fa-solid me-2 fa-rotate-right"></i>Reset</button>
+                                            <button type="button" class="btn mx-1 btn-success "><i
+                                                    class="fa-solid fa-magnifying-glass me-2"></i>Search</button>
+                                            <button type="button" class="btn btn-outline-secondary ">Expend</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- order table part start here -->
+                            <div class="dtble" style="width: 100%; overflow: auto;">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Month</th>
+                                            <th>Business Type</th>
+                                            <th>Title</th>
+                                            <th>Details</th>
+                                            <th>Status </th>
+                                            <th>Time</th>
+                                            <th>Operation</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>202402</td>
+                                            <td>Shop</td>
+                                            <td>Shop</td>
+                                            <td>You have subscribe to renew this service </td>
+                                            <td>Unread</td>
+                                            <td>2024-02-07 12:00:00</td>
+                                            <td class="">
+                                                <div class="btn-group">
+                                                    <a  class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
+                                                        style="font-size: 12px;"><i class="fa-regular fa-eye me-1"
+                                                            style="font-size: 12px;"></i>Details</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>202402</td>
+                                            <td>Shop</td>
+                                            <td>Shop</td>
+                                            <td>You have subscribe to renew this service </td>
+                                            <td>Unread</td>
+                                            <td>2024-02-07 12:00:00</td>
+                                            <td class="">
+                                                <div class="btn-group">
+                                                    <a  class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
+                                                        style="font-size: 12px;"><i class="fa-regular fa-eye me-1"
+                                                            style="font-size: 12px;"></i>Details</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>202402</td>
+                                            <td>Order</td>
+                                            <td>Shop</td>
+                                            <td>You have subscribe to renew this service </td>
+                                            <td>Unread</td>
+                                            <td>2024-02-07 12:00:00</td>
+                                            <td class="">
+                                                <div class="btn-group">
+                                                    <a  class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
+                                                        style="font-size: 12px;"><i class="fa-regular fa-eye me-1"
+                                                            style="font-size: 12px;"></i>Details</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>202402</td>
+                                            <td>Order</td>
+                                            <td>Shop</td>
+                                            <td>You have subscribe to renew this service </td>
+                                            <td>Unread</td>
+                                            <td>2024-02-07 12:00:00</td>
+                                            <td class="">
+                                                <div class="btn-group">
+                                                    <a  class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
+                                                        style="font-size: 12px;"><i class="fa-regular fa-eye me-1"
+                                                            style="font-size: 12px;"></i>Details</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- order table part end here  -->
+                        </div>
+                        <!-- content part end here  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_part">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer_iner text-center">
+                            <p>2024 © Dropshipping </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="message_details modal_">
+        <div class="mdal_content">
+            <div class="m_head">
+                <!-- <h6>Deposite Modal</h6> -->
+                <div class="w-50"></div>
+                <button class="bt_close">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <div class="_body">
+                <div class="form_group">
+                    <div class="data_">
+                        <h6>Month:</h6>
+                        <p>202602</p>
+                    </div>
+                    <div class="data_">
+                        <h6>Business type:</h6>
+                        <p>Order</p>
+                    </div>
+                    <div class="data_">
+                        <h6>Title:</h6>
+                        <p>Order</p>
+                    </div>
+                    <div class="data_">
+                        <h6>Details:</h6>
+                        <p>You have subscribe to renew this service</p>
+                    </div>
+                    <div class="data_">
+                        <h6>State:</h6>
+                        <p>read</p>
+                    </div>
+                    <div class="data_">
+                        <h6>Time:</h6>
+                        <p>2024-02-07 12:00:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="back-top" style="display: none;">
+        <a title="Go to Top" href="#top">
+            <i class="ti-angle-up"></i>
+        </a>
+    </div>
+
+    <script src="js/jquery1-3.4.1.min.js"></script>
+    <script src="js/popper1.min.js"></script>
+    <script src="js/bootstrap1.min.js"></script>
+    <script src="js/metisMenu.js"></script>
+    <script src="js/dashboard_init.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/percircle.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".bt_details").click(function(){
+                $(".message_details").fadeIn();
+            });
+            $(".bt_close").click(function(){
+                $(".message_details").fadeOut();
+            });
+        })
+        $("#demo").percircle();
+    </script>
+</body>
+
+</html>
