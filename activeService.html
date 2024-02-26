@@ -125,6 +125,26 @@
                     <li><a href="bankList.html"><i class="fa-solid fa-building-columns"></i>Bank List </a></li>
                 </ul>
             </li>
+            <li class>
+                <a href="contact.html" aria-expanded="false" class="inactive">
+                    <div class="nav_icon_small">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Contact</span>
+                    </div>
+                </a>
+            </li>
+            <li class>
+                <a href="#logout" aria-expanded="false" class="inactive">
+                    <div class="nav_icon_small">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Logout</span>
+                    </div>
+                </a>
+            </li>
         </ul>
     </nav>
     <!-- sidebar part end here  -->
@@ -283,9 +303,10 @@
 
     <div class="foating">
         <div class="floating_message">
-            <i class="fa-solid fa-circle-check"></i> <h6>Operation successfull</h6>
+            <i class="fa-solid fa-circle-check"></i>
+            <h6>Operation successfull</h6>
         </div>
-    </div>    
+    </div>
 
 
     <div id="back-top" style="display: none;">
@@ -303,9 +324,9 @@
     <script src="js/percircle.js"></script>
     <script>
         $(document).ready(function () {
-            $(".confirm_").click(function(){
+            $(".confirm_").click(function () {
                 $(".foating").fadeIn();
-                setTimeout(function(){
+                setTimeout(function () {
                     $(".foating").fadeOut();
                 }, 1500)
             });

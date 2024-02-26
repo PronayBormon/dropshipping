@@ -125,6 +125,26 @@
                     <li><a href="bankList.html"><i class="fa-solid fa-building-columns"></i>Bank List </a></li>
                 </ul>
             </li>
+            <li class>
+                <a href="contact.html" aria-expanded="false" class="inactive">
+                    <div class="nav_icon_small">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Contact</span>
+                    </div>
+                </a>
+            </li>
+            <li class>
+                <a href="#logout" aria-expanded="false" class="inactive">
+                    <div class="nav_icon_small">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </div>
+                    <div class="nav_title">
+                        <span>Logout</span>
+                    </div>
+                </a>
+            </li>
         </ul>
     </nav>
     <!-- sidebar part end here  -->
@@ -253,7 +273,7 @@
                                             <td>2024-02-07 12:00:00</td>
                                             <td class="">
                                                 <div class="btn-group">
-                                                    <a  class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
+                                                    <a class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
                                                         style="font-size: 12px;"><i class="fa-regular fa-eye me-1"
                                                             style="font-size: 12px;"></i>Details</a>
                                                 </div>
@@ -268,22 +288,7 @@
                                             <td>2024-02-07 12:00:00</td>
                                             <td class="">
                                                 <div class="btn-group">
-                                                    <a  class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
-                                                        style="font-size: 12px;"><i class="fa-regular fa-eye me-1"
-                                                            style="font-size: 12px;"></i>Details</a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>202402</td>
-                                            <td>Order</td>
-                                            <td>Shop</td>
-                                            <td>You have subscribe to renew this service </td>
-                                            <td>Unread</td>
-                                            <td>2024-02-07 12:00:00</td>
-                                            <td class="">
-                                                <div class="btn-group">
-                                                    <a  class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
+                                                    <a class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
                                                         style="font-size: 12px;"><i class="fa-regular fa-eye me-1"
                                                             style="font-size: 12px;"></i>Details</a>
                                                 </div>
@@ -298,7 +303,22 @@
                                             <td>2024-02-07 12:00:00</td>
                                             <td class="">
                                                 <div class="btn-group">
-                                                    <a  class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
+                                                    <a class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
+                                                        style="font-size: 12px;"><i class="fa-regular fa-eye me-1"
+                                                            style="font-size: 12px;"></i>Details</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>202402</td>
+                                            <td>Order</td>
+                                            <td>Shop</td>
+                                            <td>You have subscribe to renew this service </td>
+                                            <td>Unread</td>
+                                            <td>2024-02-07 12:00:00</td>
+                                            <td class="">
+                                                <div class="btn-group">
+                                                    <a class="btn btn-secondary bt_details  w-100 d-flex align-items-center"
                                                         style="font-size: 12px;"><i class="fa-regular fa-eye me-1"
                                                             style="font-size: 12px;"></i>Details</a>
                                                 </div>
@@ -384,10 +404,10 @@
     <script src="js/percircle.js"></script>
     <script>
         $(document).ready(function () {
-            $(".bt_details").click(function(){
+            $(".bt_details").click(function () {
                 $(".message_details").fadeIn();
             });
-            $(".bt_close").click(function(){
+            $(".bt_close").click(function () {
                 $(".message_details").fadeOut();
             });
         })
